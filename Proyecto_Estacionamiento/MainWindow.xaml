@@ -59,7 +59,7 @@
                         <Button x:Name="btnCancelar" Background="#002AA5" Foreground="White" Content="Cancelar" HorizontalAlignment="Left" Margin="232,130,0,0" VerticalAlignment="Top" Width="91" Height="33" Click="Cancelar" RenderTransformOrigin="0.299,-0.037"/>
 
                     </Grid>
-                    <Grid Grid.Row="2" Background="AntiqueWhite">
+                    <Grid Grid.Row="4" Background="AntiqueWhite">
                         <DataGrid Name="dtgrid" Background="Gray" Margin="10,10,10,61" SelectionChanged="Dtgrid_SelectionChanged" />
                         <!--Muestra los datos-->
                     </Grid>
